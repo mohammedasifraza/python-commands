@@ -1,4 +1,4 @@
-Python Commands
+______________________Python Commands______________________________________________________________________
 
 1.pip install django #for install django
 
