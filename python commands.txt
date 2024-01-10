@@ -1,0 +1,68 @@
+Python Commands
+
+1.pip install django #for install django
+
+2.python manage.py runserver #to run server
+
+3.python manage.py makemigrations #to cheake or make migration if any
+
+4.python manage.py migrate  #to migrate the changes
+
+5.django-admin startproject projectname #to create new project
+
+6.django-admin startapp Appname  #to create app
+
+7.python manage.py createsuperuser #to create admin
+
+8.STATICFILES_DIRS = [
+    BASE_DIR / "static",
+    # os.path.join(BASE_DIR ,"static"),
+   
+]   #add the static path in setting.py
+
+9.'DIRS': [ os.path.join(BASE_DIR ,"templates"),],  #to add template in settings.py
+
+10.pip istall pyJWT #to install pyton jwt librery
+
+11.pip install djangorestframework #to install restframework and add in installed app -> setting.py 'rest_framework',
+
+12.pip istall python-dotenv #for install and load .env
+
+13.from dotenv import load_dotenv
+load_dotenv()   # to load the .env add it in settings.py
+Razorpay_KEY=os.getenv('Razorpay_KEY') # like this get env element
+
+14.pip install razorpay #to install razorpay
+
+15. pip install --upgrade setuptools # after installing razorpay setup all required tooles
+
+16.pip install psycopg2 #to install postgresql in project
+
+17.py -m venv variablename(venv) #to create envarible file do this inside of main folder after that create app, project,env , gitignore,static,templates.
+
+18. venv\Scripts\activate.bat #to activate envariable file
+
+19.pip freeze > requirements.txt #to create and store all packeges installed simillor to pakagelock.json
+_________________________Git commands_______________________________________________________________________________________________________________
+
+1.git init #to initialize the empty repo and git
+
+2.git add README.md #to add reademe file
+
+3.git add . #to add all files in empty repo
+
+4.git commit -m "first commit" #to make commit
+
+5.git branch -M main #to initialize bach to main
+
+6.git remote add origin https://github.com/mohammedasifraza/dummy.git #to set origin where need to push
+
+7.git push -u origin main #to final push command
+
+8. git status #to cheak status of repo
+
+9.git banch #to cheak the which branch we have in repo
+
+10.To re-push repeate 3,4,5,7
+
+
